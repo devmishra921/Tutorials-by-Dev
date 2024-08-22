@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<meta lan="en">
+<html>
+
+    <head>
+
+      <title> My Page </title>
+      <link  href="faicon.ico" rel="icon" type="image"> 
+            <style>
+                #div1{
+                    width: auto;
+                    height: 630px;
+                    background-color: blue;
+                }
+                #div2{
+                    width: 50%;
+                    height: 100px;
+                    background-color: rgb(137, 173, 240);
+                    float: left;
+                    text-align: center;
+                }
+                #div3{
+                    width: 50%;
+                    height: 100px;
+                    background-color: rgb(137, 173, 240);
+                    float: left;
+                    
+                }
+                .video{
+                    width: 850px;
+                    height: 460px;
+                    background-color: white;
+                    margin: 10px 10px;
+                    float: left;
+                } 
+                h1{
+                    margin-top: 30px;
+                }
+                #form{
+                    margin-top: 40px;
+                }
+                
+                .form{
+                    width: 420px;
+                    height: 500px;
+                    margin: 10px 10px;
+                    float: left;
+                    background-color: cadetblue;
+                }         
+                footer{
+                    text-align: center;
+                }  
+
+
+
+            </style>
+    </head>
+
+        <body>
+            <div id = div1>
+                <div id=div2>
+
+                    <h1> Login / Sign Up </h1>
+                </div>
+
+                    <div id="div3">
+
+                        <form id="form" action="Form.php" method="POST">
+       
+                        Username <input type="text" name="name"> 
+                        Password <input type="password" name="mail"> 
+               
+                        <input type="Submit" name="Login"> 
+                    
+                        </form> <br>
+                    </div>
+               
+                
+                <div class=video>
+                    <!--video player-->
+                    <video width="850px" height="500px" controls>
+                        <source src="Video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                </video>
+
+                </div>
+                     
+                    <div class="form">
+                    <form margin="20px 50px" action="Form.php" action="post">
+                
+                        <fieldset>
+                            
+                            <legend> <b> Your Personal Details : </b> </legend>
+                        
+                        Enter Your Name :
+                         <input type="text" name="name"> <br> <br>
+                        Enter Password Here :
+                         <input type="password" name="pass">  <br> <br>
+
+                         Mobile No :
+                         <input type="mobile_Number" name="number" maxlength="10"> <br> <br>
+                                                            
+                        
+                        <input type="radio" name="sex" value="male" checked> Male
+                        <input type="radio" name="sex" value="female"> Female
+                        <br> <br>
+                        
+                        <input type="checkbox" name="Course"  value="html"> HTML  
+                        <input type="checkbox" name="Course"  value="css"> CSS  
+                        <input type="checkbox" name="Course"  value="bootstrip"> BOOTSTRIP  
+                        <input type="checkbox" name="Course"  value="js"> JS   
+                        <br> <br>
+                        
+                        <textarea name="comment" rows="10" cols="36">
+                        
+                        
+                        </textarea>
+                        
+                        <br> <br>
+                        
+                        <select name="selcte">
+                           <option> HTML  </option>
+                             <option> CSS  </option>
+                               <option> JS  </option>
+                                 <option> DOT NET  </option>
+                        
+                        
+                        </select>
+                        <br> <br>
+                        
+                        <input type="submit" name="SUBMIT">    
+                        
+                        <button type="button" onclick="alert ('Hi this tutorials by Dev Mishra')"> Click me
+                            </button>
+                        
+                        <button type="reset" > RESET
+                            </button> <br> <br> <br>  
+                            
+                            </fieldset>
+                    </form>
+                </div>
+                    
+            </div>
+
+            <hr>
+            <footer>
+                <p>  &copy; <b> All rights reserved by V.G Technologies Pvt Ltd. </b> </p>
+                <hr>
+            </footer>
+
+
+       
+        </body>
+  
+</html>
